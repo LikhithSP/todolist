@@ -51,4 +51,19 @@ input {
     padding: 10px;
     font-weight: 14px;
 }
+button {
+    border: none;
+    outline: none;
+    padding: 16px 20px; /* Reduced padding for mobile */
+    background: #805d31;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 40px;
+    transition: background 0.3s; /* Smooth transition for hover */
+}
 
+button:hover {
+    background: #704d28; /* Darker shade on hover */
+}
