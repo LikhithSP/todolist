@@ -36,3 +36,8 @@ inputBox.addEventListener('keypress', function (e) {
 function saveData() {
     localStorage.setItem('data', listContainer.innerHTML); // Save list to local storage
 }
+
+function showTask() {
+    listContainer.innerHTML = localStorage.getItem('data'); // Load list from local storage
+}
+showTask(); // Call showTask on page load
