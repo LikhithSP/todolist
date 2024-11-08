@@ -25,3 +25,14 @@ listContainer.addEventListener('click', function (e) {
         saveData(); // Save the updated list
     }
 }, false);
+
+// Event listener for pressing the Enter key to add a task
+inputBox.addEventListener('keypress', function (e) {
+    if (e.key === 'Enter') { // Check if the pressed key is 'Enter'
+        addTask(); // Call the addTask function
+    }
+}, false);
+
+function saveData() {
+    localStorage.setItem('data', listContainer.innerHTML); // Save list to local storage
+}
