@@ -117,3 +117,27 @@ ul li span {
 ul li span:hover {
     background: #edeef0;
 }
+@media (max-width: 540px) {
+    .todo-app {
+        margin: 20px auto; 
+        padding: 20px; 
+    }
+
+    button {
+        padding: 10px 15px;
+    }
+
+    input {
+        padding: 8px; 
+    }
+
+    ul li {
+        padding: 10px 8px 10px 40px;
+    }
+
+    ul li span {
+        height: 30px; 
+        width: 30px;
+        font-size: 18px; 
+    }
+}
