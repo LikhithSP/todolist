@@ -15,3 +15,13 @@ function addTask() {
     inputBox.value = ''; 
     saveData(); 
 }
+// Event listener for clicking on list items or remove button
+listContainer.addEventListener('click', function (e) {
+    if (e.target.tagName === "LI") {
+        e.target.classList.toggle('checked'); // Toggle checked class on click
+        saveData(); // Save the updated list
+    } else if (e.target.tagName === "SPAN") {
+        e.target.parentElement.remove(); // Remove the todo item
+        saveData(); // Save the updated list
+    }
+}, false);
