@@ -2,7 +2,7 @@
     <h1>🔐 To-Do List Application 📝</h1>
 
   <div class="preview">
-        <img src="https://i.ibb.co/LPZGBSb/image-1.png" alt="Password Generator Preview">
+        <img src="https://i.ibb.co/1ZxHJPT/image-6.png" alt="To Do List Preview">
     </div>
     <p align="center"><strong>Simple, elegant To-Do List web application that allows users to add, check off, and delete tasks. it offers a clean and user-friendly design, responsive layout, and stores tasks locally so your list persists even if the page is refreshed.</strong></p>
 
@@ -43,10 +43,6 @@
 - **index.html**: Contains the HTML structure for the app, including input and task list.
 - **style.css**: Manages the layout and design of the app, with a beautiful background and smooth interactions.
 - **script.js**: Handles task addition, deletion, completion, and saves data to local storage for persistence.
-
-## Screenshots 📸
-<!-- Replace with your own screenshots -->
-![Screenshot of Task List](path-to-your-screenshot-image)
 
 ## Contributing 🤝
 1. Fork the repository.
