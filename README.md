@@ -1,5 +1,5 @@
 <div class="container">
-    <h1> To-Do List Application 📝</h1>
+    <h1> To-Do List 📝</h1>
 
   <div class="preview">
         <img src="https://i.ibb.co/1ZxHJPT/image-6.png" alt="To Do List Preview">
