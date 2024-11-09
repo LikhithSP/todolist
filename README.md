@@ -65,5 +65,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 - [Font Awesome](https://fontawesome.com) for icons.
-- Background image by Pexels.
+- Background image by [Pexels](https://www.pexels.com).
 
