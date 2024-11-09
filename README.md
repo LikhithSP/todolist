@@ -1,8 +1,10 @@
-# To-Do List Application 📝
+<div class="container">
+    <h1>🔐 To-Do List Application 📝</h1>
 
-This is a simple, elegant To-Do List web application that allows users to add, check off, and delete tasks. Built using HTML, CSS, and JavaScript, it offers a clean and user-friendly design, responsive layout, and stores tasks locally so your list persists even if the page is refreshed.
-
-![App Screenshot](path-to-your-screenshot-image) <!-- Add a screenshot here -->
+  <div class="preview">
+        <img src="https://i.ibb.co/LPZGBSb/image-1.png" alt="Password Generator Preview">
+    </div>
+    <p align="center"><strong>Simple, elegant To-Do List web application that allows users to add, check off, and delete tasks. it offers a clean and user-friendly design, responsive layout, and stores tasks locally so your list persists even if the page is refreshed.</strong></p>
 
 ## Features ✨
 - **Add Tasks**: Quickly add new tasks to your list.
